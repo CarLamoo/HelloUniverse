@@ -1,9 +1,10 @@
 public class HelloUniverse {
-    public static void main (String... args){
-        Planete mercure=new Planete();
-        mercure.nom="Mercure";
-        mercure.matiere="Tellurique";
-        mercure.diametre=4880;
+
+    public static void main(String... args) {
+        Planete mercure = new Planete();
+        mercure.nom = "Mercure";
+        mercure.diametre = 4880;
+        mercure.matiere = "Tellurique";
         Planete venus = new Planete();
         venus.nom = "Venus";
         venus.diametre = 12100;
@@ -32,7 +33,12 @@ public class HelloUniverse {
         neptune.nom = "Neptune";
         neptune.diametre = 49532;
         neptune.matiere = "Gazeuse";
+        Planete sansNom = new Planete();
+        sansNom.nom = "null";
+        sansNom.diametre = 0;
+        sansNom.matiere = "null";
 
-        System.out.println(jupiter.nom+" est une planète "+jupiter.matiere+" avec un diamètre de "+jupiter.diametre+" kilomètres.");
+        System.out.println(sansNom.nom+" est une planète "+sansNom.matiere+" avec un diamètre de "+sansNom.diametre+" kilomètres.");
     }
+
 }
