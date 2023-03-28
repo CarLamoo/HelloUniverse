@@ -33,12 +33,13 @@ public class HelloUniverse {
         neptune.nom = "Neptune";
         neptune.diametre = 49532;
         neptune.matiere = "Gazeuse";
+
+        System.out.println(jupiter.nom+" est une planète "+jupiter.matiere+" avec un diamètre de "+jupiter.diametre+" kilomètres.");
+
         Planete sansNom = new Planete();
-        sansNom.nom = "null";
-        sansNom.diametre = 0;
-        sansNom.matiere = "null";
-
         System.out.println(sansNom.nom+" est une planète "+sansNom.matiere+" avec un diamètre de "+sansNom.diametre+" kilomètres.");
-    }
 
+        neptune.revolution();
+        mars.rotation();
+    }
 }
