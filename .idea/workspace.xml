@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6224c9a0-d276-4c71-9797-f918bb7f981d" name="Changes" comment="Add code">
+    <list default="true" id="6224c9a0-d276-4c71-9797-f918bb7f981d" name="Changes" comment="Add Function Rotation &amp; Revolution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloUniverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloUniverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Planete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +20,32 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="c_lamarche@hotmail.com" />
+        <option value="CarLamoo" />
+        <option value="Caroline" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7f49b36d-fd2f-4faf-b6f0-6fdb19ae3770" />
+        <option name="url" value="https://github.com/CarLamoo/HelloUniverse.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2NQb7vzXsV8sEWv6RuPog8iO5vn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,13 +54,13 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "CodeWithMe"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="HelloUniverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloUniverse" />
@@ -103,7 +120,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="file:$PROJECT_DIR$/HelloUniverse.iml" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -111,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code" />
+    <MESSAGE value="Add Function Rotation &amp; Revolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Function Rotation &amp; Revolution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
