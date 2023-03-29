@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6224c9a0-d276-4c71-9797-f918bb7f981d" name="Changes" comment="Add Function Rotation &amp; Revolution">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloUniverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloUniverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Planete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planete.java" afterDir="false" />
-    </list>
+    <list default="true" id="6224c9a0-d276-4c71-9797-f918bb7f981d" name="Changes" comment="Add Function Rotation &amp; Revolution" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680093881129</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Function Rotation &amp; Revolution">
+      <created>1680117126820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680117126820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
