@@ -39,7 +39,8 @@ public class HelloUniverse {
         Planete sansNom = new Planete();
         System.out.println(sansNom.nom+" est une planète "+sansNom.matiere+" avec un diamètre de "+sansNom.diametre+" kilomètres.");
 
-        neptune.revolution();
-        mars.rotation();
+        System.out.println("Neptune a effectué " +neptune.rotation(-3542)+ " tours autour de son étoile.");
+        System.out.println("Mars a effectué " +mars.rotation(-684)+ " tours sur elle-même.");
+        System.out.println("Venus a effectué " +venus.rotation(1250)+ " tours sur elle-même.");
     }
 }
