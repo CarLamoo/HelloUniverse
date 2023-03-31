@@ -29,6 +29,14 @@ public class HelloUniverse {
         uranus.nom = "Uranus";
         uranus.diametre = 51118;
         uranus.matiere = "Gazeuse";
+
+        Atmosphere atmosphereUranus=new Atmosphere();
+        atmosphereUranus.tauxHydrogene=83f;
+        atmosphereUranus.tauxHelium=15f;
+        atmosphereUranus.tauxMethane=2.5f;
+
+        uranus.atmosphere=atmosphereUranus;
+
         Planete neptune = new Planete();
         neptune.nom = "Neptune";
         neptune.diametre = 49532;
@@ -46,6 +54,15 @@ public class HelloUniverse {
         mars.accueillirVaisseau(8);
         mars.accueillirVaisseau("FREGATE");
 
-        System.out.println("Le  nombre d'humains ayant déjà séjourné sur Mars est actuellement de " +mars.nbTotalHumains);
+        System.out.println("Le nombre d'humains ayant déjà séjourné sur Mars est actuellement de " +mars.nbTotalHumains);
+
+        System.out.println("L'atmosphère d'Uranus est composée : ");
+        System.out.println("A "+uranus.atmosphere.tauxHydrogene+"% d'hydrogène");
+        System.out.println("A "+uranus.atmosphere.tauxAzote+"% d'azote");
+        System.out.println("A "+uranus.atmosphere.tauxDioxyDeCarbone+"% de dioxyde de carbone");
+        System.out.println("A "+uranus.atmosphere.tauxHelium+"% d'hélium");
+        System.out.println("A "+uranus.atmosphere.tauxMethane+"% de méthane");
+        System.out.println("A "+uranus.atmosphere.tauxSodium+"% de sodium");
+        System.out.println("A "+uranus.atmosphere.tauxArgon+"% d'argon");
     }
 }

@@ -3,6 +3,7 @@ public class Planete {
     String matiere;
     long diametre;
     int nbTotalHumains;
+    Atmosphere atmosphere;
 
 
     int revolution(int angle){
