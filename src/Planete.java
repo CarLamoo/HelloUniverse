@@ -7,7 +7,6 @@ public class Planete {
     Vaisseau vaisseauActuellementAcoste;
     static String forme = "Sphérique";
 
-
     int revolution(int angle){
         return angle/360;
     }
@@ -28,5 +27,13 @@ public class Planete {
         return vaisseauPrecedent;
     }
 
+    static String expansion(double distance){
+        if(distance<14){
+            return "Oh la la mais c'est super rapide !";
+        }
+        else {
+            return "Je rêve ou c'est plus rapide que la lumière ?";
+        }
+    }
 }
 
