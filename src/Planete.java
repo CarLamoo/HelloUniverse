@@ -6,6 +6,10 @@ public class Planete {
     Atmosphere atmosphere;
     Vaisseau vaisseauActuellementAcoste;
     static String forme = "Sphérique";
+    static int nbPlanetesDecouvertes=0;
+    Planete(){
+        nbPlanetesDecouvertes++;
+    }
 
     int revolution(int angle){
         return angle/360;
@@ -35,5 +39,6 @@ public class Planete {
             return "Je rêve ou c'est plus rapide que la lumière ?";
         }
     }
+
 }
 

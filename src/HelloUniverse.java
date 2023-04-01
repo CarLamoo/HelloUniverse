@@ -76,5 +76,7 @@ public class HelloUniverse {
 
         System.out.println(Planete.expansion(10.5));
         System.out.println(Planete.expansion(14.2));
+
+        System.out.println("Le nombre de planètes découvertes est actuellement de " +Planete.nbPlanetesDecouvertes);
     }
 }
