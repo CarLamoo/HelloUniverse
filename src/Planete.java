@@ -5,6 +5,7 @@ public class Planete {
     int nbTotalHumains;
     Atmosphere atmosphere;
     Vaisseau vaisseauActuellementAcoste;
+    static String forme = "Sphérique";
 
 
     int revolution(int angle){
