@@ -51,8 +51,14 @@ public class HelloUniverse {
         System.out.println("Mars a effectué " +mars.rotation(-684)+ " tours sur elle-même.");
         System.out.println("Venus a effectué " +venus.rotation(1250)+ " tours sur elle-même.");
 
-        mars.accueillirVaisseau(8);
-        mars.accueillirVaisseau("FREGATE");
+        Vaisseau nouveauVaisseau = new Vaisseau();
+        nouveauVaisseau.type=("FREGATE");
+        nouveauVaisseau.nbPassagers=9;
+        mars.accueillirVaisseau(nouveauVaisseau);
+        Vaisseau autreVaisseau = new Vaisseau();
+        autreVaisseau.type=("CROISEUR");
+        autreVaisseau.nbPassagers=42;
+        mars.accueillirVaisseau(autreVaisseau);
 
         System.out.println("Le nombre d'humains ayant déjà séjourné sur Mars est actuellement de " +mars.nbTotalHumains);
 
