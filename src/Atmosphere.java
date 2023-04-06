@@ -4,6 +4,6 @@ public class Atmosphere {
     float tauxAzote;
     float tauxHelium;
     float tauxArgon;
-    float tauxDioxyDeCarbone;
+    float tauxDioxydeDeCarbone;
     float tauxSodium;
 }

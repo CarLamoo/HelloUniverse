@@ -1,27 +1,20 @@
 public class HelloUniverse {
 
     public static void main(String... args) {
-        Planete mercure = new Planete("Mercure");
+        PlaneteTellurique mercure = new PlaneteTellurique("Mercure");
         mercure.diametre = 4880;
-        mercure.matiere = "Tellurique";
-        Planete venus = new Planete("Vénus");
+        PlaneteTellurique venus = new PlaneteTellurique("Vénus");
         venus.diametre = 12100;
-        venus.matiere = "Tellurique";
-        Planete terre = new Planete("Terre");
+        PlaneteTellurique terre = new PlaneteTellurique("Terre");
         terre.diametre = 12756;
-        terre.matiere = "Tellurique";
-        Planete mars = new Planete("Mars");
+        PlaneteTellurique mars = new PlaneteTellurique("Mars");
         mars.diametre = 6792;
-        mars.matiere = "Tellurique";
-        Planete jupiter = new Planete("Jupiter");
+        PlaneteGazeuse jupiter = new PlaneteGazeuse("Jupiter");
         jupiter.diametre = 142984;
-        jupiter.matiere = "Gazeuse";
-        Planete saturne = new Planete("Saturne");
+        PlaneteGazeuse saturne = new PlaneteGazeuse("Saturne");
         saturne.diametre = 120536;
-        saturne.matiere = "Gazeuse";
-        Planete uranus = new Planete("Uranus");
+        PlaneteGazeuse uranus = new PlaneteGazeuse("Uranus");
         uranus.diametre = 51118;
-        uranus.matiere = "Gazeuse";
 
         Atmosphere atmosphereUranus=new Atmosphere();
         atmosphereUranus.tauxHydrogene=83f;
@@ -30,11 +23,11 @@ public class HelloUniverse {
 
         uranus.atmosphere=atmosphereUranus;
 
-        Planete neptune = new Planete("Neptune");
-        neptune.diametre = 49532;
-        neptune.matiere = "Gazeuse";
+        PlaneteGazeuse neptune = new PlaneteGazeuse("Neptune");
 
-        System.out.println(jupiter.nom+" est une planète "+jupiter.matiere+" avec un diamètre de "+jupiter.diametre+" kilomètres.");
+        neptune.diametre = 49532;
+
+        System.out.println(jupiter.nom+" est une planète avec un diamètre de "+jupiter.diametre+" kilomètres.");
 
         System.out.println("Neptune a effectué " +neptune.rotation(-3542)+ " tours autour de son étoile.");
         System.out.println("Mars a effectué " +mars.rotation(-684)+ " tours sur elle-même.");
@@ -43,18 +36,17 @@ public class HelloUniverse {
         Vaisseau nouveauVaisseau = new Vaisseau();
         nouveauVaisseau.type=("FREGATE");
         nouveauVaisseau.nbPassagers=9;
-        mars.accueillirVaisseau(nouveauVaisseau);
+
         Vaisseau autreVaisseau = new Vaisseau();
         autreVaisseau.type=("CROISEUR");
         autreVaisseau.nbPassagers=42;
-        mars.accueillirVaisseau(autreVaisseau);
 
         System.out.println("Le nombre d'humains ayant déjà séjourné sur Mars est actuellement de " +mars.nbTotalHumains);
 
         System.out.println("L'atmosphère d'Uranus est composée : ");
         System.out.println("A "+uranus.atmosphere.tauxHydrogene+"% d'hydrogène");
         System.out.println("A "+uranus.atmosphere.tauxAzote+"% d'azote");
-        System.out.println("A "+uranus.atmosphere.tauxDioxyDeCarbone+"% de dioxyde de carbone");
+        System.out.println("A "+uranus.atmosphere.tauxDioxydeDeCarbone+"% de dioxyde de carbone");
         System.out.println("A "+uranus.atmosphere.tauxHelium+"% d'hélium");
         System.out.println("A "+uranus.atmosphere.tauxMethane+"% de méthane");
         System.out.println("A "+uranus.atmosphere.tauxSodium+"% de sodium");
@@ -67,5 +59,26 @@ public class HelloUniverse {
         System.out.println(Planete.expansion(14.2));
 
         System.out.println("Le nombre de planètes découvertes est actuellement de " +Planete.nbPlanetesDecouvertes);
+
+        VaisseauDeGuerre chasseur=new VaisseauDeGuerre();
+        chasseur.blindage=156;
+        chasseur.resistanceDuBouclier=2;
+        chasseur.type="CHASSEUR";
+
+        VaisseauCivil vaisseauMonde=new VaisseauCivil();
+        vaisseauMonde.blindage=4784;
+        vaisseauMonde.resistanceDuBouclier=30;
+        vaisseauMonde.type="VAISSEAU-MONDE";
+        vaisseauMonde.activerBouclier();
+
+        chasseur.activerBouclier();
+        chasseur.attaque(vaisseauMonde, "lasers photoniques", 3);
+        vaisseauMonde.desactiverBouclier();
+        System.out.println("La résistance du bouclier du VM est " +vaisseauMonde.resistanceDuBouclier);
+        System.out.println("Le blindage du VM est " +vaisseauMonde.blindage);
+
+        mars.accueillirVaisseau(vaisseauMonde);
+
+        mars.accueillirVaisseau(chasseur);
     }
 }
