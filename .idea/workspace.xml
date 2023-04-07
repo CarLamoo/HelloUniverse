@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6224c9a0-d276-4c71-9797-f918bb7f981d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Habitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlaneteGazeuse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlaneteTellurique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VaisseauCivil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VaisseauDeGuerre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Atmosphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Atmosphere.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloUniverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloUniverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Planete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vaisseau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vaisseau.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ConstructeurSansParametrenbPlanetesDecouvertes" />
+        <entry key="$PROJECT_DIR$" value="ConstructeurAvecParametrenNomEtNbPlanetesDecouvertes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680363202398</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add constructeur avec parametre + nom + nb.PlanetesDecouvertes">
+      <created>1680824778581</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680824778581</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

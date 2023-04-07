@@ -9,7 +9,7 @@ public class Planete {
     int totalVisiteurs;
 
     Atmosphere atmosphere;
-    Vaisseau vaisseauActuellementAccoste;
+    Vaisseau vaisseauAccoste;
 
     Planete(String nom){
         this.nom=nom;
@@ -23,8 +23,6 @@ public class Planete {
         return angle/360;
     }
 
-
-
     static String expansion(double distance){
         if(distance<14){
             return "Oh la la mais c'est super rapide !";
@@ -33,6 +31,8 @@ public class Planete {
             return "Je rêve ou c'est plus rapide que la lumière ?";
         }
     }
+
+
 
 }
 
